@@ -1,4 +1,4 @@
-![MD Tanveer Mahmood Shanin — Full-Stack Developer](assets/banner.svg?v=2)
+![MD Tanveer Mahmood Shanin — Full-Stack Developer](assets/banner-v2.svg)
 
 <div align="center">
 
@@ -8,9 +8,9 @@
 [![PORTFOLIO](https://img.shields.io/badge/PORTFOLIO-tanveer--shanin.vercel.app-00e8ff?style=for-the-badge&logo=vercel&logoColor=black)](https://tanveer-shanin.vercel.app/)
 [![LINKEDIN](https://img.shields.io/badge/LINKEDIN-md--tanveer--mahmood--shanin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/md-tanveer-mahmood-shanin-67a96629b/)
 
-![Visitors](https://img.shields.io/badge/📁_shanin.dev-system_online-0a0e18?style=flat-square&logo=github&logoColor=00e8ff&labelColor=0a0e18&color=0a0e18)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=ShaninX48.ShaninX48)
 ![Dhaka](https://img.shields.io/badge/Dhaka,_BD-Open_to_Remote-3dffa8?style=flat-square&labelColor=0f1424&color=0f1424)
-![Stack](https://img.shields.io/badge/stack-React_|_Node_|_Solidity-7c5cff?style=flat-square&labelColor=0f1424&color=0f1424)
+![Stack](https://img.shields.io/badge/stack-React_|_Node_|_Solidity-00e8ff?style=flat-square&labelColor=0f1424&color=0f1424)
 
 </div>
 
@@ -71,7 +71,7 @@ I don't just plan software — I ship it. Live, deployed, working software, not 
 
 ![source](https://img.shields.io/badge/source-GitHub_GraphQL-0a0e18?style=flat-square&logo=github&logoColor=00e8ff)
 ![refresh](https://img.shields.io/badge/refresh-every_12_hours-00e8ff?style=flat-square&labelColor=0f1424&color=0f1424)
-![theme](https://img.shields.io/badge/theme-shanin.dev_cyan+violet-7c5cff?style=flat-square&labelColor=0f1424&color=0f1424)
+![theme](https://img.shields.io/badge/theme-shanin.dev_cyan-00e8ff?style=flat-square&labelColor=0f1424&color=0f1424)
 
 </div>
 
