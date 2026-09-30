@@ -10,7 +10,7 @@
 <!-- BADGES: নিজের লিংক বসাও -->
 [![EMAIL](https://img.shields.io/badge/EMAIL-CONTACT_ME-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:youremail@gmail.com)
 [![PORTFOLIO](https://img.shields.io/badge/PORTFOLIO-SITE-0284C7?style=for-the-badge&logo=googlechrome&logoColor=white)](https://shaninx48.github.io/portfolio/)
-[![LINKEDIN](https://img.shields.io/badge/LINKEDIN-SHANINX48-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shaninx48/)
+[![LINKEDIN](https://img.shields.io/badge/LINKEDIN-SHANINX48-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/md-tanveer-mahmood-shanin-67a96629b/)
 
 ![Visitors](https://img.shields.io/badge/Visitors-COUNT-22D3EE?style=flat-square&logo=github)
 ![Based in](https://img.shields.io/badge/Based_in-Dhaka,_Bangladesh-0E7490?style=flat-square)
