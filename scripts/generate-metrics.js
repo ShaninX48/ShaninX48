@@ -54,7 +54,7 @@ if (langs.length === 0) langs = [{ name: 'HTML', pct: 50 }, { name: 'JavaScript'
 const sum = langs.reduce((a, l) => a + l.pct, 0);
 if (sum !== 100 && langs.length) langs[0].pct += (100 - sum);
 
-const LANG_COLORS = { TypeScript: '#22D3EE', HTML: '#8B5CF6', JavaScript: '#F59E0B', Python: '#10B981', Rust: '#60A5FA', PHP: '#F472B6', 'Jupyter Notebook': '#F59E0B', CSS: '#38BDF8' };
+const LANG_COLORS = { TypeScript: '#00E8FF', HTML: '#7C5CFF', JavaScript: '#3DFFA8', Python: '#00E8FF', Rust: '#7C5CFF', PHP: '#9AA3C0', 'Jupyter Notebook': '#3DFFA8', CSS: '#00E8FF' };
 const langColor = (n) => LANG_COLORS[n] || '#22D3EE';
 
 // ---- 3. contributions + streak + rhythm (GraphQL, fallback 0) ----
@@ -82,8 +82,8 @@ try {
 } catch (e) { console.log('GraphQL fallback:', e.message); }
 if (!weeks.length) weeks = [2, 5, 3, 7, 4, 8, 6, 10, 5, 9, 4, 7, 6, 3, 5, 4];
 
-// ---- SVG builders (dark navy cards like screenshot) ----
-const BG = '#080D21', CARD = '#131B33', BORDER = '#0E7490', MUTED = '#8B9BB4', ACC = '#7DF9FF';
+// ---- SVG builders (shanin.dev theme: #0a0e18 + cyan #00e8ff + violet #7c5cff) ----
+const BG = '#0A0E18', CARD = '#0F1424', BORDER = '#00E8FF', MUTED = '#9AA3C0', ACC = '#00E8FF';
 
 function cardWrap(title, sub, inner, h) {
   return `<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="${h}" viewBox="0 0 1000 ${h}" role="img">
@@ -96,10 +96,10 @@ ${inner}
 }
 
 function metricBox(x, y, label, value, note) {
-  return `<g><rect x="${x}" y="${y}" width="270" height="110" rx="20" fill="${CARD}" stroke="#2A3A5E"/>
-<text x="${x + 20}" y="${y + 30}" font-family="monospace" font-size="13" letter-spacing="1.5" fill="${MUTED}">${esc(label)}</text>
-<text x="${x + 20}" y="${y + 75}" font-family="Inter,Arial" font-size="46" font-weight="800" fill="#fff">${esc(value)}</text>
-<text x="${x + 130}" y="${y + 72}" font-family="Inter,Arial" font-size="15" fill="#D5DCE8">${esc(note)}</text></g>`;
+  return `<g><rect x="${x}" y="${y}" width="270" height="110" rx="14" fill="${CARD}" stroke="#1E2A4A"/>
+<text x="${x + 20}" y="${y + 30}" font-family="'JetBrains Mono',monospace" font-size="13" letter-spacing="1.5" fill="${MUTED}">${esc(label)}</text>
+<text x="${x + 20}" y="${y + 75}" font-family="'Space Grotesk',Inter,Arial" font-size="46" font-weight="800" fill="#F3F6FF">${esc(value)}</text>
+<text x="${x + 130}" y="${y + 72}" font-family="Inter,Arial" font-size="15" fill="#9AA3C0">${esc(note)}</text></g>`;
 }
 
 const metricsInner =
@@ -132,7 +132,7 @@ weeks.forEach((v, i) => {
   const h = Math.round((v / maxW) * 130) + 8;
   const x = 60 + i * 55;
   const y = 300 - h;
-  bars += `<rect x="${x}" y="${y}" width="36" height="${h}" rx="8" fill="${v === maxW ? '#22D3EE' : '#274067'}"><title>${v} contributions</title></rect>
+  bars += `<rect x="${x}" y="${y}" width="36" height="${h}" rx="8" fill="${v === maxW ? '#00E8FF' : v > maxW * 0.5 ? '#7C5CFF' : '#1B2540'}"><title>${v} contributions</title></rect>
 <text x="${x + 18}" y="325" font-family="monospace" font-size="11" fill="${MUTED}" text-anchor="middle">W${i + 1}</text>`;
 });
 bars += `<text x="60" y="360" font-family="Inter,Arial" font-size="15" fill="#D5DCE8">Peak week: ${maxW} contributions • Last ${weeks.length} weeks</text>`;

@@ -1,95 +1,80 @@
-<!-- EDIT ME: নিচের 3টা লিংক নিজেরটা বসাও -->
-<!-- EMAIL, LINKEDIN_URL, PORTFOLIO_URL -->
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1026,50:0E7490,100:4F46E5&height=230&section=header&text=MD%20Tanveer%20Mahmood%20Shanin&fontSize=48&fontColor=ffffff&desc=BSc%20Graduate%20•%20Builder%20•%20Blockchain%20Explorer&descSize=18&descAlignY=65" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:060811,50:0a0e18,100:7c5cff&height=230&section=header&text=MD%20Tanveer%20Mahmood%20Shanin&fontSize=46&fontColor=f3f6ff&desc=Full-Stack%20Developer%20•%20React%20•%20Solidity&descSize=17&descAlignY=65" width="100%"/>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=22D3EE&center=true&vCenter=true&width=700&lines=Blockchain+•+Web+Systems+•+Problem+Solving;Polygon+%2B+JavaScript+%2B+Python+%2B+Algorithms)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1000&color=00e8ff&center=true&vCenter=true&width=720&lines=Full-Stack+Developer;React.js+%E2%80%A2+Node.js+%E2%80%A2+TypeScript+%E2%80%A2+Solidity;8+Live+projects+%E2%80%A2+Open+to+Remote)](https://git.io/typing-svg)
 
-<!-- BADGES: নিজের লিংক বসাও -->
-[![EMAIL](https://img.shields.io/badge/EMAIL-CONTACT_ME-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:youremail@gmail.com)
-[![PORTFOLIO](https://img.shields.io/badge/PORTFOLIO-SITE-0284C7?style=for-the-badge&logo=googlechrome&logoColor=white)](https://shaninx48.github.io/portfolio/)
-[![LINKEDIN](https://img.shields.io/badge/LINKEDIN-SHANINX48-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/md-tanveer-mahmood-shanin-67a96629b/)
+[![EMAIL](https://img.shields.io/badge/EMAIL-shaninmahmood@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shaninmahmood@gmail.com)
+[![PORTFOLIO](https://img.shields.io/badge/PORTFOLIO-tanveer--shanin.vercel.app-00e8ff?style=for-the-badge&logo=vercel&logoColor=black)](https://tanveer-shanin.vercel.app/)
+[![LINKEDIN](https://img.shields.io/badge/LINKEDIN-md--tanveer--mahmood--shanin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/md-tanveer-mahmood-shanin-67a96629b/)
 
-![Visitors](https://img.shields.io/badge/Visitors-COUNT-22D3EE?style=flat-square&logo=github)
-![Based in](https://img.shields.io/badge/Based_in-Dhaka,_Bangladesh-0E7490?style=flat-square)
-![Current](https://img.shields.io/badge/Current-BSc_Graduated-F59E0B?style=flat-square)
-![Open to](https://img.shields.io/badge/Open_to-Jobs_|_Research_|_Software-8B5CF6?style=flat-square)
+![Visitors](https://img.shields.io/badge/📁_shanin.dev-system_online-0a0e18?style=flat-square&logo=github&logoColor=00e8ff&labelColor=0a0e18&color=0a0e18)
+![Dhaka](https://img.shields.io/badge/Dhaka,_BD-Open_to_Remote-3dffa8?style=flat-square&labelColor=0f1424&color=0f1424)
+![Stack](https://img.shields.io/badge/stack-React_|_Node_|_Solidity-7c5cff?style=flat-square&labelColor=0f1424&color=0f1424)
 
 </div>
 
-<div align="center" style="background:#080D21;border-radius:20px;padding:20px;margin-top:10px">
+### 📁 shanin.dev/
 
-# Build. Learn. Solve.
-### Backend systems, blockchain, algorithms, and applied computing
-`sprofile.signal = systems + blockchain + algorithms + learning`
+```sh
+$ whoami
+MD Tanveer Mahmood Shanin — Full-Stack Developer, UITS CSE '26
+$ stack --list
+React · Node.js · TypeScript · Solidity · Polygon · Supabase
+$ status
+open to work — Dhaka, BD / Remote · Sat–Thu 10AM–8PM GMT+6
+```
 
-</div>
+## ├─about.md
 
-## Hello, I am Shanin
-
-I am a BSc graduate from Bangladesh, shaped by three quiet obsessions: building reliable software, understanding how trust works on blockchains, and solving hard algorithmic problems simply.
-
-My GitHub is not meant to be a PDF in disguise. It is the public lab notebook of someone who wants to grow into a practical engineer: strong enough for production, curious enough for research.
+I don't just plan software — I ship it. Live, deployed, working software, not slide decks. Backend, frontend, database, deployment — the whole thing myself.
 
 <table>
   <tr>
     <td align="center" width="33%">
-      <h3>Builder</h3>
-      Full-stack systems, portfolio sites, attendance tools like kabaddi-raid-master, academic calculators like skip-clearance, database-backed products.
+      <h3>Full-Stack Shipper</h3>
+      Petition Hub, Skip Clearance, Connectors, KeyForge — Next.js + Supabase + PWA. 8 live projects.
     </td>
     <td align="center" width="33%">
-      <h3>Blockchain Explorer</h3>
-      Product provenance & anti-counterfeit tracker on Polygon, smart-contract workflows, faucet testing, provenance logic.
+      <h3>Blockchain Builder</h3>
+      Product provenance tracker on Polygon Amoy, decentralized voting capstone, ethers.js + MetaMask flows.
     </td>
     <td align="center" width="33%">
-      <h3>Problem Solver</h3>
-      Matrix operations, simulation labs, Python + Jupyter experiments, clean implementation habits.
+      <h3>Playful Engineer</h3>
+      Kabaddi: Raid Master 3D + mic chant, Yutnori realtime multiplayer, Sarangsho AI summarizer.
     </td>
   </tr>
 </table>
 
-## Current Coordinates
+## ├─career.build
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3>Now</h3>
-      BSc graduated, building <b>product-provenance-tracker</b>, <b>kabaddi-raid-master</b> and portfolio projects while continuing self-study and engineering work.
+      B.Sc. CSE (UITS) done, Team Lead — KAIST WFK IT Training, Excellence Award. Building petition-hub, kabaddi-raid-master, provenance-tracker.
       <br><br>
-      I am especially interested in teams where software is not just code, but a vehicle for trust, security, and measurable impact.
+      WICE Bronze — Find Blood project. 13 certificates.
     </td>
     <td width="50%" valign="top">
       <h3>Looking For</h3>
-      Junior software engineering roles (backend / full-stack), research assistantship conversations, and funded MSc opportunities in computer science.
+      Full-stack roles (on-site / hybrid / remote) — React + Node + TypeScript.
       <br><br>
-      Best fit: teams who value curiosity, discipline, documentation, and the ability to turn abstract ideas into working systems.
+      Best fit: teams who ship fast, review honestly, and care about real users — not slide decks.
     </td>
   </tr>
 </table>
 
-## Live Metrics
+## ├─github.sh — live from portfolio theme
 
 <div align="center">
 
-![source](https://img.shields.io/badge/source-GitHub_GraphQL-0B1026?style=flat-square&logo=github)
-![refresh](https://img.shields.io/badge/refresh-every_12_hours-0E7490?style=flat-square)
-![generated by](https://img.shields.io/badge/generated_by-Node.js-3ECF8E?style=flat-square&logo=nodedotjs&logoColor=white)
+![source](https://img.shields.io/badge/source-GitHub_GraphQL-0a0e18?style=flat-square&logo=github&logoColor=00e8ff)
+![refresh](https://img.shields.io/badge/refresh-every_12_hours-00e8ff?style=flat-square&labelColor=0f1424&color=0f1424)
+![theme](https://img.shields.io/badge/theme-shanin.dev_cyan+violet-7c5cff?style=flat-square&labelColor=0f1424&color=0f1424)
 
 </div>
 
 ![GitHub Metrics](assets/github-metrics.svg)
 ![Repository Language Distribution](assets/languages.svg)
 ![Contribution Rhythm](assets/rhythm.svg)
-
-<!-- 
-SETUP (একবারই করতে হবে):
-1. github.com/new এ গিয়ে নাম দাও ঠিক: ShaninX48  (username এর সমান, Public repo)
-2. এই ফোল্ডারের সব ফাইল ওই repo তে push করো:
-   git init; git add .; git commit -m "feat: premium profile"; git branch -M main
-   git remote add origin https://github.com/ShaninX48/ShaninX48.git
-   git push -u origin main
-3. উপরে EMAIL / PORTFOLIO / LINKEDIN লিংক 3টা বদলে নিজেরটা বসাও
-4. Actions tab এ গিয়ে workflow টা Enable করো — প্রতি 12 ঘন্টায় SVG auto-refresh হবে
--->
