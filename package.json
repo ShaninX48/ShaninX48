@@ -1,0 +1,1 @@
+{"name": "shaninx48-profile-metrics", "version": "1.0.0", "private": true, "type": "module", "scripts": {"generate": "node scripts/generate-metrics.js"}}
