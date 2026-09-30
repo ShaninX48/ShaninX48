@@ -1,4 +1,4 @@
-![MD Tanveer Mahmood Shanin — Full-Stack Developer](assets/banner.svg)
+![MD Tanveer Mahmood Shanin — Full-Stack Developer](assets/banner.svg?v=2)
 
 <div align="center">
 
