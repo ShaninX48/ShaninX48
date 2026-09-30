@@ -33,8 +33,10 @@
 </g>
 <!-- sea waves (moving like ocean, auto-loop) -->
 <g>
-<path d="M-400 252 q 100 -20 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 V320 H-400 Z" fill="#00E8FF" opacity="0.16"><animateTransform attributeName="transform" type="translate" values="0 0;400 0" dur="7s" repeatCount="indefinite"/></path>
-<path d="M-400 266 q 100 -14 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 V320 H-400 Z" fill="#060811" opacity="0.72"><animateTransform attributeName="transform" type="translate" values="400 0;0 0" dur="10s" repeatCount="indefinite"/></path>
+<path d="M-400 238 q 100 -26 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 V320 H-400 Z" fill="#00E8FF" opacity="0.32"><animateTransform attributeName="transform" type="translate" values="0 0;400 0" dur="6s" repeatCount="indefinite"/></path>
+<path d="M-400 238 q 100 -26 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0" fill="none" stroke="#7DF9FF" stroke-width="2.5" opacity="0.8"><animateTransform attributeName="transform" type="translate" values="0 0;400 0" dur="6s" repeatCount="indefinite"/></path>
+<path d="M-400 258 q 100 -20 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 V320 H-400 Z" fill="#062A33" opacity="0.95"><animateTransform attributeName="transform" type="translate" values="400 0;0 0" dur="9s" repeatCount="indefinite"/></path>
+<path d="M-400 258 q 100 -20 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0" fill="none" stroke="#00E8FF" stroke-width="2.5" opacity="0.9"><animateTransform attributeName="transform" type="translate" values="400 0;0 0" dur="9s" repeatCount="indefinite"/></path>
 </g>
 <text x="600" y="165" text-anchor="middle" font-family="'Space Grotesk',Inter,Arial,sans-serif" font-size="56" font-weight="700" letter-spacing="-0.5" fill="#F3F6FF">MD Tanveer Mahmood Shanin</text>
 <!-- shine sweep across title -->
