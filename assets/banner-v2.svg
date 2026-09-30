@@ -31,9 +31,11 @@
 <circle cx="800" cy="300" r="2.5" opacity="0.45"><animate attributeName="cy" values="300;70" dur="8s" begin="0.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.45;0" dur="8s" begin="0.8s" repeatCount="indefinite"/></circle>
 <circle cx="1050" cy="300" r="2" opacity="0.4"><animate attributeName="cy" values="300;90" dur="10s" begin="2.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.4;0" dur="10s" begin="2.2s" repeatCount="indefinite"/></circle>
 </g>
-<!-- bottom wave -->
-<path d="M0 250 C 220 235, 420 270, 650 255 C 870 240, 1050 250, 1200 245 L1200 320 L0 320 Z" fill="#060811" opacity="0.55"/>
-<path d="M0 265 C 250 250, 500 280, 750 268 C 950 258, 1100 262, 1200 258 L1200 320 L0 320 Z" fill="#060811" opacity="0.65"/>
+<!-- sea waves (moving like ocean, auto-loop) -->
+<g>
+<path d="M-400 252 q 100 -20 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 V320 H-400 Z" fill="#00E8FF" opacity="0.16"><animateTransform attributeName="transform" type="translate" values="0 0;400 0" dur="7s" repeatCount="indefinite"/></path>
+<path d="M-400 266 q 100 -14 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 t 200 0 V320 H-400 Z" fill="#060811" opacity="0.72"><animateTransform attributeName="transform" type="translate" values="400 0;0 0" dur="10s" repeatCount="indefinite"/></path>
+</g>
 <text x="600" y="165" text-anchor="middle" font-family="'Space Grotesk',Inter,Arial,sans-serif" font-size="56" font-weight="700" letter-spacing="-0.5" fill="#F3F6FF">MD Tanveer Mahmood Shanin</text>
 <!-- shine sweep across title -->
 <g clip-path="url(#textClip)"><rect x="-300" y="90" width="220" height="110" fill="url(#shine)" opacity="0.6"><animateTransform attributeName="transform" type="translate" values="-100 0;1400 0" dur="4.5s" repeatCount="indefinite"/></rect></g>
