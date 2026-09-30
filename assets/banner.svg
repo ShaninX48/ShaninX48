@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#060811"/>
+<stop offset="42%" stop-color="#0A0E18"/>
+<stop offset="72%" stop-color="#232055"/>
+<stop offset="100%" stop-color="#5B4BD6"/>
+</linearGradient>
+<radialGradient id="glowC" cx="0.18" cy="0.3" r="0.5">
+<stop offset="0%" stop-color="#00E8FF" stop-opacity="0.22"/>
+<stop offset="100%" stop-color="#00E8FF" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="glowV" cx="0.9" cy="0.4" r="0.55">
+<stop offset="0%" stop-color="#7C5CFF" stop-opacity="0.55"/>
+<stop offset="100%" stop-color="#7C5CFF" stop-opacity="0"/>
+</radialGradient>
+<pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+<path d="M44 0H0V44" fill="none" stroke="#00E8FF" stroke-opacity="0.07" stroke-width="1"/>
+</pattern>
+</defs>
+<rect width="1200" height="320" fill="url(#bg)"/>
+<rect width="1200" height="320" fill="url(#grid)"/>
+<rect width="1200" height="320" fill="url(#glowC)"/>
+<rect width="1200" height="320" fill="url(#glowV)"/>
+<!-- bottom wave like screenshot -->
+<path d="M0 250 C 220 235, 420 270, 650 255 C 870 240, 1050 250, 1200 245 L1200 320 L0 320 Z" fill="#060811" opacity="0.55"/>
+<path d="M0 265 C 250 250, 500 280, 750 268 C 950 258, 1100 262, 1200 258 L1200 320 L0 320 Z" fill="#060811" opacity="0.65"/>
+<text x="600" y="165" text-anchor="middle" font-family="'Space Grotesk',Inter,Arial,sans-serif" font-size="56" font-weight="700" letter-spacing="-0.5" fill="#F3F6FF">MD Tanveer Mahmood Shanin</text>
+<text x="600" y="205" text-anchor="middle" font-family="Inter,'JetBrains Mono',Arial,sans-serif" font-size="21" font-weight="500" fill="#E8ECF7">Full-Stack Developer • React • Solidity</text>
+</svg>

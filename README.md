@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:060811,50:0a0e18,100:7c5cff&height=230&section=header&text=MD%20Tanveer%20Mahmood%20Shanin&fontSize=46&fontColor=f3f6ff&desc=Full-Stack%20Developer%20•%20React%20•%20Solidity&descSize=17&descAlignY=65" width="100%"/>
+![MD Tanveer Mahmood Shanin — Full-Stack Developer](assets/banner.svg)
 
 <div align="center">
 
