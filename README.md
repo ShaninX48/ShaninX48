@@ -77,4 +77,5 @@ I don't just plan software — I ship it. Live, deployed, working software, not 
 
 ![GitHub Metrics](assets/github-metrics.svg)
 ![Repository Language Distribution](assets/languages.svg)
+![Capability Matrix](assets/capability.svg)
 ![Contribution Rhythm](assets/rhythm.svg)

@@ -138,5 +138,26 @@ weeks.forEach((v, i) => {
 bars += `<text x="60" y="360" font-family="Inter,Arial" font-size="15" fill="#D5DCE8">Peak week: ${maxW} contributions • Last ${weeks.length} weeks</text>`;
 writeFileSync(`${OUT}/rhythm.svg`, cardWrap('Contribution Rhythm', 'Weekly contribution totals across the most recent activity window.', bars, 400));
 
+// capability matrix — edit scores here, push -> auto updates
+const CAPABILITY = [
+  { title: 'Full-Stack Delivery', sub: 'React, Next.js, Node.js, Supabase', score: 90 },
+  { title: 'Backend Systems', sub: 'Express, PostgreSQL, APIs, Realtime', score: 86 },
+  { title: 'Frontend Engineering', sub: 'Three.js, PWA, UI, Chart.js', score: 88 },
+  { title: 'Blockchain & Web3', sub: 'Solidity, ethers.js, Polygon Amoy', score: 82 },
+  { title: 'AI Integration', sub: 'Gemini API, static apps, tooling', score: 80 },
+  { title: 'CS Fundamentals', sub: 'Algorithms, Python, SQL, Git', score: 84 },
+];
+let cy = 145; let capInner = '';
+for (const c of CAPABILITY) {
+  const bw = 540, fw = Math.round((c.score / 100) * bw);
+  capInner += `<text x="80" y="${cy + 8}" font-family="'Space Grotesk',Inter,Arial" font-size="21" font-weight="700" fill="#F3F6FF">${esc(c.title)}</text>
+<text x="80" y="${cy + 30}" font-family="Inter,Arial" font-size="14" fill="#9AA3C0">${esc(c.sub)}</text>
+<rect x="400" y="${cy - 8}" width="${bw}" height="30" rx="15" fill="#1B2540"/>
+<rect x="400" y="${cy - 8}" width="${fw}" height="30" rx="15" fill="#00E8FF"/>
+<text x="${400 + fw - 14}" y="${cy + 14}" font-family="Inter,Arial" font-size="18" font-weight="800" fill="#fff" text-anchor="end">${c.score}</text>`;
+  cy += 72;
+}
+writeFileSync(`${OUT}/capability.svg`, cardWrap('Capability Matrix', 'Readable skill balance across shipping, blockchain, and frontend.', capInner, cy + 60));
+
 console.log(`Done: contributions=${contributions} repos=${publicRepos} stars=${stars} followers=${followers} streak=${currentStreak}/${longestStreak}`);
-console.log('Wrote assets/github-metrics.svg, assets/languages.svg, assets/rhythm.svg');
+console.log('Wrote assets/github-metrics.svg, assets/languages.svg, assets/rhythm.svg, assets/capability.svg');
